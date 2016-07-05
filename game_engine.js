@@ -4,7 +4,7 @@ var gameInfo = {};
 
 window["red"] = {"color":"red"};
 window["blue"] = {"color":"blue"};
-var teams = [window["red"], window["blue"]];
+var teams = [window["red"], window["red"], window["blue"], window["blue"]];
 
 var shipShapes = {
 	'full ship': [[-8,16],[0,-8],[8,16]],
